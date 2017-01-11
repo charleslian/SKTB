@@ -1,0 +1,24 @@
+#whether the SOC_band-calculation is needed. 
+ISOC = 0
+#whether the fitting of parameters is needed
+IFIT = 1
+#the fitting criteria. 
+DCRI = 1E-5
+#the number of the k-points used for fitting. 
+INKP = 150
+#the indices of the lowest band and the highest band used for fitting. 
+IMMB = 0 5 
+#brief the order of the neighbors used for calculation. 
+INNO = 1 
+#whether the band-calculation is needed. 
+IBAN=1
+#whether to calculate dos
+IDOS=0
+#K mesh
+IKMG=18 18 1
+#dos interval
+NDOS=0.1
+#ismear
+ISMEAR=0.2
+#electric field eV/A
+EDIP=2.0
